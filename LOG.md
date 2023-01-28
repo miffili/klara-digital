@@ -5,5 +5,5 @@
 - [x] brief research
 - [x] set up repo & issues to track
 - [ ] set up project w/ tech stack chosen
-  - [ ] remix base w/ TS
-  - [ ] TailwindCSS
+  - [x] remix base w/ TS
+  - [x] TailwindCSS
