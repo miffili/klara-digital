@@ -16,7 +16,7 @@ export function links() {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "🌱 Klara's Digital Garden",
   viewport: "width=device-width,initial-scale=1",
 });
 
@@ -27,7 +27,9 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body
+        className="bg-white dark:bg-slate-800 text-slate-800 dark:text-white"
+      >
         <Outlet />
         <ScrollRestoration />
         <Scripts />
