@@ -7,7 +7,7 @@ Digital Garden Pattern Language:
 - continuous  growth
 - imperfection & learning in public
 
-This concept appealed to me so very much, that I couldn't foget about it in all these months. So here we are.
+This concept appealed to me so very much, that I couldn't forget about it in all these months. So here we are.
 
 Be prepared for an eclectic mix of technical content around web development & a11y, personal discoveries about my neurodiversity, and random irl & digital craft & diy projects. 🌱
 
