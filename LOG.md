@@ -22,7 +22,7 @@
 
 ## D02 | Dark mode manually & system preference
 
-- resource: [Remix Dark Mode]](https://www.mattstobbs.com/remix-dark-mode/)
+- resource: [Remix Dark Mode](https://www.mattstobbs.com/remix-dark-mode/)
 - [x] dark / light theme toggle (additional to system preference)
 - [x] fixed my vs code setup to format on save
 - [x] added TailwindCSS vscode extension to vscode setup
@@ -45,7 +45,7 @@
 
 - [ ] markdown/need for data base?
 - [ ] deploy w/ ...
-  - [ ] fly.io (tryout surfaced some issues
+  - [ ] fly.io (tryout surfaced some issues)
   - [ ] github pages?
   - [ ] alternative to fly.io
 - [ ] attach domain 🤓 
@@ -55,10 +55,11 @@
 ### D04 | Deployment
 
 - [x] site deployed with Netlify
+- [x] attach domain 🤓
 
 ## next
 
 - [ ] intergrate mdx file structure thingy
-- [ ] attach domain 🤓
+- [ ] check if domain connection worked
 
-➡ time invested: ~ 2hr
+➡ time invested: ~ 2hr 15mins
