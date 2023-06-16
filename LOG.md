@@ -51,3 +51,14 @@
 - [ ] attach domain 🤓 
 
 ➡ time invested: ~ 2hr 30mins
+
+### D04 | Deployment
+
+- [x] site deployed with Netlify
+
+## next
+
+- [ ] intergrate mdx file structure thingy
+- [ ] attach domain 🤓
+
+➡ time invested: ~ 2hr
