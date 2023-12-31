@@ -1,6 +1,22 @@
 # Learning in Public • Logging the First Steps Creating my Digital Garden
 
-## D01 | Base Setup
+Holding myself accoutable by loggin my first steps. This document will probably be archived at some point.
+
+## 2024
+
+### D000 | Picking up the slack
+
+📅 Dec 31st 2023
+
+- [x] writing first draft of initial post (private repo)
+- [x] inspired by Rust, drafting the [first idea at symbolism for post maturity](https://github.com/miffili/klara-digital/issues/10)
+- [x] [base structure](STRUCTURE.md) of personal website
+
+---
+
+## 2023
+
+### D01 | Base Setup
 
 - [x] brief research
 - [x] set up repo & issues to track
@@ -9,7 +25,7 @@
   - [x] TailwindCSS
 - [x] dark / light mode (system preferences)
 
-### next steps
+#### next steps
 
 - ~~dark/light mode manual toggle & system preference support~~
 - figuring out mdx setup
@@ -20,14 +36,14 @@
 
 ➡ total time invested today: 3hrs
 
-## D02 | Dark mode manually & system preference
+### D02 | Dark mode manually & system preference
 
 - resource: [Remix Dark Mode](https://www.mattstobbs.com/remix-dark-mode/)
 - [x] dark / light theme toggle (additional to system preference)
 - [x] fixed my vs code setup to format on save
 - [x] added TailwindCSS vscode extension to vscode setup
 
-### next steps
+#### next steps
 
 - figuring out mdx setup
   - out of the box support (does not scale well)
@@ -41,14 +57,14 @@
 - [x] collected inspiration & resources for the look & feel I wanna go with the Digital Garden
 - [x] restructured design & worked towards desired outcome
 
-## next
+#### next
 
-- [ ] markdown/need for data base?
-- [ ] deploy w/ ...
-  - [ ] fly.io (tryout surfaced some issues)
-  - [ ] github pages?
-  - [ ] alternative to fly.io
-- [ ] attach domain 🤓 
+- markdown/need for data base?
+- deploy w/ ...
+  - fly.io (tryout surfaced some issues)
+  - github pages?
+  - alternative to fly.io
+- attach domain 🤓 
 
 ➡ time invested: ~ 2hr 30mins
 
@@ -57,9 +73,9 @@
 - [x] site deployed with Netlify
 - [x] attach domain 🤓
 
-## next
+#### next
 
-- [ ] intergrate mdx file structure thingy
-- [ ] check if domain connection worked
+- intergrate mdx file structure thingy
+- check if domain connection worked
 
 ➡ time invested: ~ 2hr 15mins
