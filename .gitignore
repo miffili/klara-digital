@@ -6,6 +6,6 @@ node_modules
 
 .markdownlint.json
 
-#Local Netlify folder
+# Local Netlify folder
 .netlify
 .DS_Store
