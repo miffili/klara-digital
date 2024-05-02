@@ -1,54 +1,29 @@
-import type { MetaFunction } from '@remix-run/node';
 import {
-	Links,
-	LiveReload,
-	Meta,
-	Outlet,
-	Scripts,
-	ScrollRestoration,
-} from '@remix-run/react';
-import { clsx } from 'clsx';
-import {
-	NonFlashOfWrongThemeEls,
-	ThemeProvider,
-	useTheme,
-} from 'utils/theme-provider';
-import styles from './styles/app.css';
+  Links,
+  Meta,
+  Outlet,
+  Scripts,
+  ScrollRestoration,
+} from "@remix-run/react";
 
-export function links() {
-	return [{ rel: 'stylesheet', href: styles }];
+export function Layout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <Meta />
+        <Links />
+      </head>
+      <body>
+        {children}
+        <ScrollRestoration />
+        <Scripts />
+      </body>
+    </html>
+  );
 }
 
-export const meta: MetaFunction = () => ({
-	charset: 'utf-8',
-	title: "🌱 Klara's Digital Garden",
-	viewport: 'width=device-width,initial-scale=1',
-});
-
-function App() {
-	const [theme] = useTheme();
-
-	return (
-		<html lang='en' className={clsx(theme)}>
-			<head>
-				<Meta />
-				<Links />
-				<NonFlashOfWrongThemeEls />
-			</head>
-			<body className='bg-white dark:bg-slate-800 text-slate-800 dark:text-white'>
-				<Outlet />
-				<ScrollRestoration />
-				<Scripts />
-				<LiveReload />
-			</body>
-		</html>
-	);
-}
-
-export default function AppWithProviders() {
-	return (
-		<ThemeProvider>
-			<App />
-		</ThemeProvider>
-	);
+export default function App() {
+  return <Outlet />;
 }
