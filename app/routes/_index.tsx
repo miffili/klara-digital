@@ -3,7 +3,7 @@ import { useTheme, Theme } from 'utils/theme-provider';
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title: 'New Remix App' },
+		{ title: "Klara's Digital Garden" },
 		{ name: 'description', content: 'Welcome to Remix!' },
 	];
 };
