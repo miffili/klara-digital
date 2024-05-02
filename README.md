@@ -51,6 +51,8 @@ Make sure to deploy the output of `npm run build`
 - `build/server`
 - `build/client`
 
+<!-- markdownlint-disable MD029 -->
+
 ## Netlify Setup
 
 1. Install the [Netlify CLI](https://docs.netlify.com/cli/get-started/):
@@ -76,6 +78,8 @@ netlify login
 ```sh
 netlify init
 ```
+
+<!-- markdownlint-enable MD029 -->
 
 ## Development
 

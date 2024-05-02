@@ -1,1 +1,1 @@
-export { handleRequest as default } from '@netlify/remix-adapter';
+export { handleRequest as default } from "@netlify/remix-adapter";
