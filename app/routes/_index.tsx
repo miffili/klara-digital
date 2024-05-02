@@ -1,41 +1,33 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { MetaFunction } from '@remix-run/node';
+import { useTheme, Theme } from 'utils/theme-provider';
 
 export const meta: MetaFunction = () => {
-  return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
+	return [
+		{ title: 'New Remix App' },
+		{ name: 'description', content: 'Welcome to Remix!' },
+	];
 };
 
 export default function Index() {
-  return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
-    </div>
-  );
+	const [, setTheme] = useTheme();
+
+	const toggleTheme = () => {
+		setTheme((prevTheme) =>
+			prevTheme === Theme.LIGHT ? Theme.DARK : Theme.LIGHT
+		);
+	};
+
+	return (
+		<div className='m-4'>
+			<h1 className='mb-4 text-xl font-semibold'>
+				Welcome to Klara&apos;s Digital Garden
+			</h1>
+			<button
+				onClick={toggleTheme}
+				className='py-2 px-4 bg-slate-800 dark:bg-white text-white dark:text-slate-800 rounded-md'
+			>
+				Toggle theme
+			</button>
+		</div>
+	);
 }
