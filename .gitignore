@@ -3,4 +3,9 @@ node_modules
 /.cache
 /build
 .env
+
 .markdownlint.json
+
+#Local Netlify folder
+.netlify
+.DS_Store
