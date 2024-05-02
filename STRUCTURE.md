@@ -1,4 +1,4 @@
-# Preliminary Structure for Personal Website
+# Preliminary Structure/Ideas for Personal Website
 
 - Home
 - Past & Unfinished Projects
@@ -10,7 +10,7 @@
 
 ## Home
 
-tbd, but yeah.. 😅 stuff that is usually on intro pages like such
+tbd, but yeah.. 😅 stuff that is usually on intro pages
 
 ## Past & Unfinished Projects
 
@@ -34,4 +34,4 @@ yup, same as home 😅
 
 ## Legal
 
-because
+because it's required 🙃

@@ -4,6 +4,12 @@ Holding myself accoutable by loggin my first steps. This document will probably 
 
 ## 2024
 
+### D001 | Persistence over Consistency
+
+📅 May 2nd
+
+- [x] redo setup after 15 months
+
 ### D000 | Picking up the slack
 
 📅 Dec 31st 2023
@@ -64,7 +70,7 @@ Holding myself accoutable by loggin my first steps. This document will probably 
   - fly.io (tryout surfaced some issues)
   - github pages?
   - alternative to fly.io
-- attach domain 🤓 
+- attach domain 🤓
 
 ➡ time invested: ~ 2hr 30mins
 
