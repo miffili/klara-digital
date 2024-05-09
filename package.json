@@ -8,7 +8,9 @@
 		"dev": "remix vite:dev",
 		"lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
 		"start": "netlify serve",
-		"typecheck": "tsc"
+		"typecheck": "tsc",
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build"
 	},
 	"dependencies": {
 		"@netlify/functions": "^2.6.0",
@@ -19,11 +21,21 @@
 		"isbot": "^4.1.0"
 	},
 	"devDependencies": {
+		"@chromatic-com/storybook": "^1.3.4",
 		"@remix-run/dev": "^2.9.1",
+		"@storybook/addon-essentials": "^8.0.10",
+		"@storybook/addon-interactions": "^8.0.10",
+		"@storybook/addon-links": "^8.0.10",
+		"@storybook/addon-onboarding": "^8.0.10",
+		"@storybook/blocks": "^8.0.10",
+		"@storybook/react": "^8.0.10",
+		"@storybook/react-vite": "^8.0.10",
+		"@storybook/test": "^8.0.10",
 		"@types/react": "^18.2.20",
 		"@types/react-dom": "^18.2.7",
 		"@typescript-eslint/eslint-plugin": "^6.7.4",
 		"autoprefixer": "^10.4.19",
+		"chromatic": "^11.3.2",
 		"clsx": "^2.1.1",
 		"eslint": "^8.38.0",
 		"eslint-import-resolver-typescript": "^3.6.1",
@@ -31,7 +43,9 @@
 		"eslint-plugin-jsx-a11y": "^6.7.1",
 		"eslint-plugin-react": "^7.33.2",
 		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-storybook": "^0.8.0",
 		"postcss": "^8.4.38",
+		"storybook": "^8.0.10",
 		"tailwindcss": "^3.4.3",
 		"typescript": "^5.1.6",
 		"vite": "^5.0.0",
@@ -39,5 +53,6 @@
 	},
 	"engines": {
 		"node": ">=18.0.0"
-	}
+	},
+	"version": ""
 }
